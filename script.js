@@ -1,6 +1,6 @@
 const puppeteer = require("puppeteer");
-const id = "geweso9261@64ge.com";
-const pw = "manpreet";
+const id = "";
+const pw = "";
 let songs = ["Naina Da Kya Kasoor","Qaafirana","Love you Zindagi","Naina Da kya Kasoor","Baithi hai"];
 (async function () {
     let browser = await puppeteer.launch({
