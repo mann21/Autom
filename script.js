@@ -1,7 +1,7 @@
 const puppeteer = require("puppeteer");
 const id = "";
 const pw = "";
-let songs = ["Naina Da Kya Kasoor","Qaafirana","Love you Zindagi","Naina Da kya Kasoor","Baithi hai"];
+let songs = ["Sawarne Lage","Mann Mera","Tera Chehra","Main Rang Sharbaton Ka","Tera Zikar"];
 (async function () {
     let browser = await puppeteer.launch({
       ignoreDefaultArgs: ['--disable-extensions'],
